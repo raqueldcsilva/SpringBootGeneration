@@ -1,4 +1,4 @@
-package br.com.generation.controller;
+package br.com.generation.lojagames.controller;
 
 import java.util.List;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.generation.model.Produto;
-import br.com.generation.repository.ProdutoRepository;
+import br.com.generation.lojagames.model.Produto;
+import br.com.generation.lojagames.repository.ProdutoRepository;
 
 @RestController
 @RequestMapping ("/produtos")
